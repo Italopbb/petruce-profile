@@ -145,6 +145,34 @@ span#burguer{
     
 }
 
+label {
+
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+form div + div {
+    margin-top: 1em;
+  }
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+.contato-conteudo:hover{
+    background-color: rgb(33 114 117);
+
+}
+
+.linknav:hover{
+    background-color: rgb(33 114 117);
+}
+
+
 @media (max-width: 680px){
 
     .pocisaomenu{
