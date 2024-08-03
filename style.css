@@ -239,6 +239,7 @@ form {
     }
     .nav-list.active{
         display: flex;
+	flex-direction: row;
     }
     .contato-conteudo{
         display: flex;
